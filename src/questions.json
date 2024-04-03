@@ -1,0 +1,105 @@
+{
+  "Chemical Kinetics": {
+    "Single Correct Answer Type": [
+      {
+        "question": "The activation energies of two reactions are E_1 and E_2 (E_1>E_2). If the temperature of the system is increased from T_1 to T_2, the rate constant of the reactions changes from k_1 to k_1' in the first reaction and k_2 to k_2' in the second reaction. Predict which of the following expressions is correct?",
+        "options": {
+          "a": "(k_1')/(k_1') = (k_2')/(k_2')",
+          "b": "(k_1')/(k_1') > (k_2')/(k_2')",
+          "c": "(k_1')/(k_1') < (k_2')/(k_2')",
+          "d": "(k_1')/(k_1') = (k_2')/(k_2') = 1"
+        }
+      },
+      {
+        "question": "Effective collisions are those in which molecules must:",
+        "options": {
+          "a": "Have energy equal to or greater than the threshold energy",
+          "b": "Have proper orientation",
+          "c": "Acquire the energy of activation",
+          "d": "All of the above"
+        }
+      },
+      {
+        "question": "Consider the following statements, The rate law for the acid catalysed hydrolysis of an ester being given as Rate = k[H^+][ester] = k'[ester]. If the acid concentration is doubled at constant ester concentration: 1. The second order rate constant, k is doubled. 2. The pseudo first order rate constant, k is doubled. 3. The rate of the reaction is doubled. Which of the above statements are correct?",
+        "options": {
+          "a": "1 and 2",
+          "b": "2 and 3",
+          "c": "1 and 3",
+          "d": "1, 2, and 3"
+        }
+      },
+      {
+        "question": "Half-life of two samples is 0.1 and 0.8 s. Their respective concentration is 400 and 50, respectively. The order of reaction is",
+        "options": {
+          "a": "0",
+          "b": "2",
+          "c": "1",
+          "d": "4"
+        }
+      },
+      {
+        "question": "The units of rate of reaction are",
+        "options": {
+          "a": "L mol^(-1) s^(-1)",
+          "b": "mol L^(-1) s^(-1)",
+          "c": "mol s^(-1)",
+          "d": "None of these"
+        }
+      },
+      {
+        "question": "Units of rate constant of first and zero order reactions in terms of molarity M unit are, respectively",
+        "options": {
+          "a": "s^(-1), M s^(-1)",
+          "b": "s^(-1), M",
+          "c": "M s^(-1), s^(-1)",
+          "d": "M, s^(-1)"
+        }
+      },
+      {
+        "question": "The half time of a second order reaction is:",
+        "options": {
+          "a": "Inversely proportional to the square of the initial concentration of the reactants",
+          "b": "Inversely proportional to the initial concentration of the reactants",
+          "c": "Proportional to the initial concentration of reactants",
+          "d": "Independent of the initial concentration of reactants"
+        }
+      },
+      {
+        "question": "1/[A]^2 vs times are a straight line. Order of reaction is",
+        "options": {
+          "a": "First",
+          "b": "Second",
+          "c": "Zero",
+          "d": "Third"
+        }
+      },
+      {
+        "question": "For an endothermic reaction where, ΔH represents the enthalpy of the reaction in kJ/mol, the minimum value for the energy of activation will be",
+        "options": {
+          "a": "Less than ΔH",
+          "b": "Zero",
+          "c": "More than ΔH",
+          "d": "Equal to ΔH"
+        }
+      },
+      {
+        "question": "The unit of rate constant for a zero order reaction",
+        "options": {
+          "a": "L s^(-1)",
+          "b": "L mol^(-1) s^(-1)",
+          "c": "mol L^(-1) s^(-1)",
+          "d": "mol s^(-1)"
+        }
+      },
+      {
+        "question": "What is the formula to find the value of t_(1/2) for a zero order reaction?",
+        "options": {
+          "a": "k/[R]_0",
+          "b": "2k/[R]_0",
+          "c": "[R]_0/2k",
+          "d": "0.693/k"
+        }
+      }
+    ]
+  }
+}
