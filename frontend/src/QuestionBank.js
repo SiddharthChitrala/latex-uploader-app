@@ -30,20 +30,23 @@ const QuestionBank = () => {
         );
 
         const newSetData = {
-            [newSetName]: {
-                'Single Correct Answer Type': newSet
-            }
+            'Single Correct Answer Type': newSet
         };
 
-        const fileData = JSON.stringify(newSetData, null, 2);
-        const blob = new Blob([fileData], { type: 'application/json' });
-        const url = URL.createObjectURL(blob);
-        const link = document.createElement('a');
-        link.href = url;
-        link.download = `${newSetName}.json`;
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
+        fetch('http://localhost:3001/save-question-set', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ setName: newSetName, questions: newSetData })
+        })
+            .then(response => response.json())
+            .then(data => {
+                alert(data.message);
+            })
+            .catch(error => {
+                console.error('Error saving question set:', error);
+            });
     };
 
     return (
